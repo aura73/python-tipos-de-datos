@@ -25,3 +25,11 @@ match operacion:
         print("La división es " + str(division))
     case _ :
         print("Operación inválida")
+    case _ '%':
+        #modulo
+        modulo=numero1 % numero2
+        print ("el modulo de la división es" +str(modulo))
+    case _ '^':
+        #potencia
+        pow(numero1,numero2)= potencia
+         print ("el resultado de la potencia es" +str(potencia))
